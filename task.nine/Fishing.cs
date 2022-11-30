@@ -1,8 +1,8 @@
 ﻿using System;
 namespace task.nine
 {
-	public class Fishing
-	{
+	public class Fishing : Interface1
+    {
         public void printRules()
         {
             Console.WriteLine("Participants must make their own fishing rods and catch" +

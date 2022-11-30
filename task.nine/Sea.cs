@@ -1,8 +1,8 @@
 ﻿using System;
 namespace task.nine
 {
-	public class Sea
-	{
+	public class Sea : Interface1
+    {
 		public void printRules()
 		{
 			Console.WriteLine("the participants of each team must swim the designated " +

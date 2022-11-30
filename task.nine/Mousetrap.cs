@@ -1,8 +1,8 @@
 ﻿using System;
 namespace task.nine
 {
-	public class Mousetrap
-	{
+	public class Mousetrap : Interface1
+    {
 		public void printRules()
 		{
 			Console.WriteLine("Members of one team wear mouse costumes, and the other team " +

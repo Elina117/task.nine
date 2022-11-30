@@ -1,8 +1,8 @@
 ﻿using System;
 namespace task.nine
 {
-	public class Postmen
-	{
+	public class Postmen : Interface1
+    {
         public void printRules()
         {
             Console.WriteLine("participants need to deliver postcards to the addresses they" +

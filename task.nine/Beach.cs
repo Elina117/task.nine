@@ -1,8 +1,8 @@
 ﻿using System;
 namespace task.nine
 {
-	public class Beach 
-	{
+	public class Beach : Interface1
+    {
         public void printRules()
 		{
 			Console.WriteLine("The task of the participants is to collect as many stones and " +

@@ -1,8 +1,8 @@
 ﻿using System;
 namespace task.nine
 {
-	public class Slide
-	{
+	public class Slide : Interface1
+    {
         public void printRules()
         {
             Console.WriteLine("the participants take turns climbing the rock and " +
